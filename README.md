@@ -102,7 +102,7 @@ altair personal slc odbc connections to and from mysql with and without passthru
     libname db
        mysql
        user=root
-       password="Sas2@rlxxlr@2saS"
+       password="xxxxxxxxxxxxx"
        database='sakila'
        ;
 
@@ -249,7 +249,7 @@ altair personal slc odbc connections to and from mysql with and without passthru
     proc sql;
       connect to mysql (
         user=root
-        password="Sas2@rlxxlr@2saS"
+        password="xxxxxxxxxxxxxxxx"
         database='sakila'
        );
       create table tst as (

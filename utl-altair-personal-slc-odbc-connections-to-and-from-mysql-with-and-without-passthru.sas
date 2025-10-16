@@ -1,12 +1,15 @@
-%let pgm=utl-altair-personal-slc-odbc-connections-to-and-from-mysql-with-and-without-passthru;
+%let pgm=utl-altair-personal-slc-connections-to-and-from-mysql-with-and-without-passthru;
 
 %stop_submission;
 
-altair personal slc odbc connections to and from mysql with and without passthru
+altair personal slc connections to and from mysql with and without passthru
 
 Too Long to post here, see git hub
 
-   TWO SOLUTION
+github
+https://github.com/rogerjdeangelis/utl-altair-personal-slc-odbc-connections-to-and-from-mysql-with-and-without-passthru
+
+   CONTENTS
 
        1 without passthru (explicit-execute using sas language)
        2 with passthru (implicit - execute using sql server sql dialect inside the sql server database)
@@ -97,7 +100,7 @@ NOTE: The data step took :
 libname db
    mysql
    user=root
-   password="Sas2@rlxxlr@2saS"
+   password="xxxxxxxxxxxx"
    database='sakila'
    ;
 
@@ -244,7 +247,7 @@ Obs    name        sex         age
 proc sql;
   connect to mysql (
     user=root
-    password="Sas2@rlxxlr@2saS"
+    password="xxxxxxxxxxxx"
     database='sakila'
    );
   create table tst as (

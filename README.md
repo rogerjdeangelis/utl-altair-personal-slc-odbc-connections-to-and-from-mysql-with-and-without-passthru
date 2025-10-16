@@ -7,8 +7,11 @@ altair personal slc odbc connections to and from mysql with and without passthru
     altair personal slc odbc connections to and from mysql with and without passthru
 
     Too Long to post here, see git hub
+    
+    github
+    https://github.com/rogerjdeangelis/utl-altair-personal-slc-odbc-connections-to-and-from-mysql-with-and-without-passthru
 
-       TWO SOLUTION
+       CONTENTS
 
            1 without passthru (explicit-execute using sas language)
            2 with passthru (implicit - execute using sql server sql dialect inside the sql server database)
